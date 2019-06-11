@@ -30,6 +30,7 @@ export default class Ripple extends PureComponent {
     rippleDuration: PropTypes.number,
     rippleSize: PropTypes.number,
     rippleContainerBorderRadius: PropTypes.number,
+    rippleOverflow: PropTypes.bool,
     rippleCentered: PropTypes.bool,
     rippleSequential: PropTypes.bool,
     rippleFades: PropTypes.bool,
